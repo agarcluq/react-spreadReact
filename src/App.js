@@ -20,7 +20,7 @@ const Listas = () => {
  
             <ul>
                 <button onClick={aumentar}>Aumentar</button>
-                <p>Añade el... {masNumeros}</p>
+                <p>Añade el {masNumeros}</p>
                 {
                     numeros.map((item, index) => 
                         <li key={index}>
